@@ -44,8 +44,6 @@ def run_alexa():
         info = wikipedia.summary(person, 1)
         print(''+info)
         talk(info)
-    elif 'are you single' in command:
-        talk('No,I love Ansh Gupta he is my jaan')
     elif 'joke' in command:
         joke = pyjokes.get_joke()
         print(''+joke)
